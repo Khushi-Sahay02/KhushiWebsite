@@ -1,0 +1,162 @@
+.home{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background:#233357;
+  height:100vh;
+  width:100vw;
+}
+.intro{
+  flex:60%;
+  padding: 50px;
+  margin-top:60px;
+  text-align: center;
+  color: white;
+}
+.img-body{
+  margin:40px;
+  flex:50%;
+  width:400px;
+  height:400px;
+  float:right;
+}
+.imgClass{
+  border-radius: 50%;
+  float:right;
+  margin-top:120px;
+  margin-right:100px;
+  width:300px;
+  height:300px;
+  justify-content: center;
+}
+.buttons{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  padding-top:40px;
+}
+.subtext{
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+.title{
+  color: #e5e7e7;
+  font-size: 3em;
+  letter-spacing: -2px;
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+
+.hobbies{
+  width:100vw;
+  height:100vh;
+}
+.white-section{
+  margin-top:40px;
+  padding:25px 15px 15px auto;
+}
+.row{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+.heading{
+  color: #000000;
+  font-size: 3em;
+  letter-spacing: -2px; 
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box{
+  flex:50%;
+}
+.skills{
+  background:#233357;
+  height:100vh; 
+  width:100vw;
+  margin-top:-50px;
+} 
+.quality{
+  width:100%;
+  margin:10px;
+}
+.quality-name{
+  font-size: 22px;
+  font-weight: strong;
+  color:#ffffff;
+  text-align: left;
+  margin-left:20px;
+}
+.skill-name{
+  color: #e5e7e7;
+  font-size: 3em;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.quality-level{
+  width:95vw;
+  margin-top: 2px;
+  margin-left:20px;
+  margin-right:100px;
+  padding:auto 2px 2px 2px;
+  height:15px;
+  background-color: blanchedalmond;
+  border-radius: 25px;
+  /* box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444; */
+  color:#ff4c68;
+}
+progress{
+  color:#ff4c68;
+}
+@media screen and (max-width: 768px) {
+  .home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100vw !important;
+    height: 100vh !important;
+  }
+
+  .intro{
+    flex:100%;
+    padding:20px;
+    margin-top:10%;
+  }
+  .buttons{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 10px;
+    float:right;
+    padding:20px;
+    margin-bottom:10%;
+    margin-right: 40px;
+  }
+  .img-body{
+    margin-top:-200px;
+  }
+  .imgClass{
+    display: flex;
+    margin-top:-50px;
+    flex-direction: row;
+    float:left;
+    margin-right: 10%;
+    width:200px;
+    height:200px;
+  }
+
+
+  
+
+}
